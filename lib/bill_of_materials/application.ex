@@ -7,8 +7,6 @@ defmodule BillOfMaterials.Application do
 
   def start(_type, _args) do
     children = [
-      # Start the Ecto repository
-      BillOfMaterials.Repo,
       # Start the Telemetry supervisor
       BillOfMaterialsWeb.Telemetry,
       # Start the PubSub system

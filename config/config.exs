@@ -7,9 +7,6 @@
 # General application configuration
 use Mix.Config
 
-config :bill_of_materials,
-  ecto_repos: [BillOfMaterials.Repo]
-
 # Configures the endpoint
 config :bill_of_materials, BillOfMaterialsWeb.Endpoint,
   url: [host: "localhost"],
