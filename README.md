@@ -1,2 +1,2 @@
-# Bill-of-Materials
-An application for material billing
+# Bill Of Materials
+An application for material billing.
